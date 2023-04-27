@@ -38,6 +38,12 @@ function makesound(key)
             audio3.play();
             
             break;
+            case "d":
+                var audio3= new Audio("sounds/tom-4.mp3");
+                audio3.play();
+                
+                break;
+
        case "j":
             var audio4= new Audio("sounds/snare.mp3");
             audio4.play();
